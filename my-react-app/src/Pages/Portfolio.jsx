@@ -87,8 +87,11 @@ const  Portfolio = () => {
         {/*if showPortfolio is true - show projects*/}
         {showPortfolio && (
             <div className="div-projects">
-                {projects.filter((project) => (project.title.includes(search)))
-                
+                {projects
+                    .filter((project) => 
+                        project.langues.some((langues) => langues.toLowerCase().includes(search.toLowerCase())
+                    )
+                    )
                 .map((project, index) => (
                     <ProjectProfile
                         key={index}
