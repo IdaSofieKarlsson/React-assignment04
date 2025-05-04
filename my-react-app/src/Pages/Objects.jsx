@@ -1,5 +1,5 @@
 //även detta är en testsida som lärarna kan ignorera... 
-//för att uppdatera object med flere värden year (och inte bara ersätta 2009 med 2025) så använd spread operator "...car"
+//för att uppdatera object med flera värden year (och inte bara ersätta 2009 med 2025) så använd spread operator "...car"
 
 import { useState } from "react";
 
