@@ -31,7 +31,7 @@ const  Portfolio = () => {
             title: 'JS-assignment07',
             langues: ['HTML', 'CSS', 'JavaScript'],
             projectSkills: 'DOM',
-            linkRepo: 'https://github.com/IdaSofieKarlsson/JS-assignment01',
+            linkRepo: 'https://github.com/IdaSofieKarlsson/Typing-game-master-js-assignment07',
         },
         {
             title: 'React-assignment02',
@@ -77,7 +77,7 @@ const  Portfolio = () => {
             <div>
                 <input 
                 type="text"
-                placeholder="Search..."
+                placeholder="Search for program langues used in different projects"
                 value={search} 
                 onChange={(e) => setSearch(e.target.value)}
                 />
